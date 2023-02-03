@@ -98,7 +98,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 				
-			case 'dad':
+			case 'eren':
 				// FU
 				tex = Paths.getSparrowAtlas('eren/ErenSheet', 'shared', true);
 				frames = tex;
@@ -113,6 +113,7 @@ class Character extends FlxSprite
 				barColor = 0xFFaf66ce;
 
 				playAnim('idle');
+				
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('spooky_kids_assets', 'shared', true);
 				frames = tex;
